@@ -1,5 +1,6 @@
 # Charles Darwin Watch Faces
-Effective Date: July 23rd 2025
+Effective Date: July 23rd 2025  
+Last updated: October 13th 2026 (new contact email)
 
 This Privacy Policy applies to the use of Charles Darwin Watch Faces (referred to as “we,” “us,” or “our”).
 
@@ -18,4 +19,4 @@ We may update this Privacy Policy from time to time. If any changes are made, th
 
 Contact
 If you have any questions or concerns about this Privacy Policy, feel free to contact us at:
-[charles.darwin.dev@gmail.com](mailto:charles.darwin.dev@gmail.com)
+[heroiccharlyappssoporte@gmail.com](mailto:heroiccharlyappssoporte@gmail.com)

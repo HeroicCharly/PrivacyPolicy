@@ -35,7 +35,7 @@ We may update this Privacy Policy from time to time. If any changes are made, th
 
 ## Contact
 If you have any questions or concerns about this Privacy Policy, or want your help messages deleted, contact us at:
-[charles.darwin.dev@gmail.com](mailto:charles.darwin.dev@gmail.com)
+[heroiccharlyappssoporte@gmail.com](mailto:heroiccharlyappssoporte@gmail.com)
 
 ---
 
@@ -74,4 +74,4 @@ Podemos actualizar esta Política de privacidad. Si hay cambios, la nueva polít
 
 ## Contacto
 Si tienes preguntas sobre esta Política de privacidad, o quieres que borremos tus mensajes de ayuda, escríbenos a:
-[charles.darwin.dev@gmail.com](mailto:charles.darwin.dev@gmail.com)
+[heroiccharlyappssoporte@gmail.com](mailto:heroiccharlyappssoporte@gmail.com)
