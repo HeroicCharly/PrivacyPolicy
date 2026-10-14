@@ -1,5 +1,5 @@
 # ReiniciaWifi
-Effective Date: October 13th 2026
+Effective Date: October 14th 2026
 
 *[Versión en español más abajo](#política-de-privacidad-en-español)*
 
@@ -17,7 +17,7 @@ We only receive information when you choose to send us a message from the **Help
 - The text you write.
 - Your email address, only if you enter one so we can reply.
 - Your phone's support code: a short code derived from Android's ID for this app. It cannot be turned back into that ID and does not identify you personally.
-- The app version, your phone's maker and model, the Android version and the app's language.
+- Technical details about the app and your phone: the app version, your phone's maker and model, the maker's version of Android (for example MIUI or One UI), the Android version, the app's language and your phone's language, how the app was installed (for example from Google Play) and which of the app's language, screen and processor packages are installed. They help us find problems specific to a phone or an installation, and contain nothing that identifies you.
 
 We use this information only to answer you and fix problems with the app. Help messages are sent over an encrypted connection (HTTPS) to a private channel on Discord that only our support team can read. Discord acts as our service provider; see [Discord's Privacy Policy](https://discord.com/privacy). We do not sell or share this information with anyone else, and we do not use it for advertising.
 
@@ -40,7 +40,7 @@ If you have any questions or concerns about this Privacy Policy, or want your he
 ---
 
 # Política de privacidad (en español)
-Fecha de entrada en vigor: 13 de octubre de 2026
+Fecha de entrada en vigor: 14 de octubre de 2026
 
 Esta Política de privacidad se aplica a la app para Android ReiniciaWifi (“nosotros”). ReiniciaWifi reinicia tu propio módem o router desde tu teléfono.
 
@@ -56,7 +56,7 @@ Solo recibimos información cuando decides enviarnos un mensaje desde la pantall
 - El texto que escribes.
 - Tu correo electrónico, solo si lo escribes para que te respondamos.
 - El código de soporte de tu teléfono: un código corto derivado del identificador de Android para esta app. No se puede convertir de vuelta en ese identificador y no te identifica personalmente.
-- La versión de la app, la marca y el modelo de tu teléfono, la versión de Android y el idioma de la app.
+- Datos técnicos de la app y de tu teléfono: la versión de la app, la marca y el modelo de tu teléfono, la versión de Android del fabricante (por ejemplo MIUI o One UI), la versión de Android, el idioma de la app y el de tu teléfono, cómo se instaló la app (por ejemplo desde Google Play) y cuáles de los paquetes de idioma, pantalla y procesador de la app están instalados. Nos ayudan a encontrar problemas propios de un teléfono o de una instalación, y no contienen nada que te identifique.
 
 Usamos esta información solo para responderte y corregir problemas de la app. Los mensajes de ayuda se envían por una conexión cifrada (HTTPS) a un canal privado de Discord que solo nuestro equipo de soporte puede leer. Discord actúa como nuestro proveedor de servicio; consulta la [Política de privacidad de Discord](https://discord.com/privacy). No vendemos ni compartimos esta información con nadie más, ni la usamos para publicidad.
 
