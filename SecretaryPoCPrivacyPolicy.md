@@ -51,6 +51,14 @@ You can ask us at any time to:
 
 Write to us at the address below, from the phone number you used or mentioning it.
 
+## How to request deletion of your data
+1. Send an email to [heroiccharlyappssoporte@gmail.com](mailto:heroiccharlyappssoporte@gmail.com) with the subject **“Delete my data – Virtual Secretary PoC”**.
+2. In the email, include the **WhatsApp phone number** you used with the assistant (with country code). Alternatively, you can send the same request as a WhatsApp message to the assistant from that number.
+3. We may reply to confirm that the number is yours before deleting anything, so nobody can delete another person’s data.
+4. Within **30 days** we will delete your conversation memory, the run history that contains your number and messages, and the calendar appointments we hold for you, remove your number from the group of testers, and confirm by reply.
+
+Data held by Meta, Anthropic and Google is not under our control; to delete it, use the privacy tools of each provider (see the links in “Who processes it”).
+
 ## What we do not do
 - We do not use accounts, ads or tracking tools.
 - We do not access your contacts, location, files or other WhatsApp chats.
@@ -118,6 +126,14 @@ Puedes pedirnos en cualquier momento:
 - Que te quitemos del grupo de probadores para que el asistente deje de responder a tu número.
 
 Escríbenos a la dirección de abajo, desde el número que usaste o mencionándolo.
+
+## Cómo solicitar que borremos tus datos
+1. Envía un correo a [heroiccharlyappssoporte@gmail.com](mailto:heroiccharlyappssoporte@gmail.com) con el asunto **“Borrar mis datos – PoC Secretaria Virtual”**.
+2. En el correo, incluye el **número de WhatsApp** que usaste con el asistente (con código de país). También puedes enviar la misma solicitud como mensaje de WhatsApp al asistente desde ese número.
+3. Podemos responderte para confirmar que el número es tuyo antes de borrar algo, para que nadie pueda borrar los datos de otra persona.
+4. En un máximo de **30 días** borraremos la memoria de tu conversación, el historial de ejecuciones que contenga tu número y tus mensajes, y las citas del calendario que tengamos a tu nombre, te quitaremos del grupo de probadores y te confirmaremos por respuesta.
+
+Los datos en poder de Meta, Anthropic y Google no están bajo nuestro control; para borrarlos, usa las herramientas de privacidad de cada proveedor (ver los enlaces en “Quién la procesa”).
 
 ## Lo que no hacemos
 - No usamos cuentas, anuncios ni herramientas de rastreo.
