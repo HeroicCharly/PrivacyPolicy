@@ -1,5 +1,5 @@
 # ReiniciaWifi
-Effective Date: October 16th 2026
+Effective Date: November 8th 2026
 
 *[Versión en español más abajo](#política-de-privacidad-en-español)*
 
@@ -40,6 +40,14 @@ Your modem's pages can show information about your network, such as the Wi-Fi na
 
 We use modem reports only to make the app work with that modem model. They are sent and stored the same way as help messages, in the same private Discord channel, and we keep them only as long as we need them for that. To have a report deleted, write to us with your support code.
 
+### Restart failure reports
+If a restart fails in a way you can't fix yourself (for example, your modem doesn't accept it), the app shows a **Report the problem** button. Nothing is sent unless you tap it. A report includes:
+- Your modem's brand and model, and the result of the restart.
+- The list of requests the app made to your modem: the page address (path) and the modem's response code, and the first 150 characters of the reply for the restart and for errors.
+- Your phone's support code and the same technical details as a help message.
+
+Before it leaves your phone, the app erases your modem password from it. It does not include your Wi-Fi name, your modem's address or your username. We use these reports only to fix the app for that modem. They are sent and stored the same way as help messages, in the same private Discord channel, and we keep them only as long as we need them for that. To have a report deleted, write to us with your support code.
+
 ## What we do not do
 - We do not use accounts, ads, analytics or tracking tools.
 - We do not collect your location, contacts, files or browsing activity. The only web pages a modem report includes are your modem's own, opened inside the app.
@@ -57,7 +65,7 @@ If you have any questions or concerns about this Privacy Policy, or want your he
 ---
 
 # Política de privacidad (en español)
-Fecha de entrada en vigor: 16 de octubre de 2026
+Fecha de entrada en vigor: 8 de noviembre de 2026
 
 Esta Política de privacidad se aplica a la app para Android ReiniciaWifi (“nosotros”). ReiniciaWifi reinicia tu propio módem o router desde tu teléfono.
 
@@ -95,6 +103,14 @@ Las páginas de tu módem pueden mostrar información de tu red, como el nombre 
 - la parte de la dirección física (MAC) de cada aparato que lo identifica, dejando solo la parte que indica su fabricante.
 
 Usamos los reportes de módem solo para que la app funcione con ese modelo de módem. Se envían y se guardan igual que los mensajes de ayuda, en el mismo canal privado de Discord, y los conservamos solo el tiempo necesario para eso. Para que borremos un reporte, escríbenos con tu código de soporte.
+
+### Reportes de fallas al reiniciar
+Si un reinicio falla de una forma que tú no puedes resolver (por ejemplo, tu módem no lo acepta), la app muestra un botón **Reportar el problema**. No se envía nada a menos que lo toques. Un reporte incluye:
+- La marca y el modelo de tu módem, y el resultado del reinicio.
+- La lista de peticiones que la app hizo a tu módem: la dirección de la página (ruta) y el código de respuesta del módem, y los primeros 150 caracteres de la respuesta del reinicio y de los errores.
+- El código de soporte de tu teléfono y los mismos datos técnicos que un mensaje de ayuda.
+
+Antes de salir de tu teléfono, la app borra de él la contraseña de tu módem. No incluye el nombre de tu Wi-Fi, la dirección de tu módem ni tu usuario. Usamos estos reportes solo para corregir la app con ese módem. Se envían y se guardan igual que los mensajes de ayuda, en el mismo canal privado de Discord, y los conservamos solo el tiempo necesario para eso. Para que borremos un reporte, escríbenos con tu código de soporte.
 
 ## Lo que no hacemos
 - No usamos cuentas, anuncios, analíticas ni herramientas de rastreo.
