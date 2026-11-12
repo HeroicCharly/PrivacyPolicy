@@ -1,5 +1,5 @@
 # ReiniciaWifi
-Effective Date: November 8th 2026
+Effective Date: November 11th 2026
 
 *[Versión en español más abajo](#política-de-privacidad-en-español)*
 
@@ -8,13 +8,15 @@ This Privacy Policy applies to the ReiniciaWifi Android app (referred to as “w
 ## Information that stays on your phone
 - **Modem settings:** the Wi-Fi name, modem model, IP address, username and password you enter. They are stored encrypted on your phone, with a key that cannot leave it, and are only sent to your own modem on your local network to sign in and restart it. They are never sent to us or to anyone else, and they are excluded from phone backups.
 - **Restart history:** when and on which network you last restarted each modem. It is stored encrypted on your phone only.
+- **Scheduled restart:** the time and days you choose, the saved network it applies to, whether each scheduled restart worked, and a count of the restarts you have made with the app. The schedule is stored encrypted; all of it stays on your phone only.
+- **Restart logs:** a short record of your latest manual and scheduled restarts (when, the result, your modem's model and local address, and whether your phone allowed what a scheduled restart needs). It stays on your phone unless you attach it to a help message (see below).
 - **Unfinished modem reports:** if you send a modem report without the restart step (see below), the app remembers that network's Wi-Fi name, or its modem's address if Android hides the name, so it can offer to finish the report. It stays on your phone only.
 - **Location:** Android only shares the name of the Wi-Fi network you are connected to with apps that have precise location permission. We use that permission only to read the Wi-Fi name and recognize your saved networks. We never read, save or send your location.
 
 You can delete all of this at any time with **Erase all data** in the app, or by uninstalling it.
 
 ## Information we collect
-We only receive information when you choose to send it: a message from the **Help** screen, or a modem report from the **Config** screen.
+We only receive information when you choose to send it: a message from the **Help** screen (optionally with your restart logs), or a modem report from the **Config** screen.
 
 ### Help messages
 A help message includes:
@@ -48,6 +50,16 @@ If a restart fails in a way you can't fix yourself (for example, your modem does
 
 Before it leaves your phone, the app erases your modem password from it. It does not include your Wi-Fi name, your modem's address or your username. We use these reports only to fix the app for that modem. They are sent and stored the same way as help messages, in the same private Discord channel, and we keep them only as long as we need them for that. To have a report deleted, write to us with your support code.
 
+### Restart logs
+On the **Help** screen you can tick **Attach error logs: scheduled restart** and/or **Attach error logs: manual restart**. Nothing is attached unless you tick it and send the message. The attached text file includes:
+- **Scheduled restarts** (your latest 20): the time each was set for and when it really ran, the result, your modem's model and local address, whether your phone was connected to Wi-Fi, and whether the battery, notification and exact alarm permissions are allowed. It also includes your current schedule (time and days) and when it runs next.
+- **Manual restarts** (your latest 10): when, the result, your modem's model and local address.
+- For both, the list of requests the app made to your modem: the page address (path) and the modem's response code, and the first 150 characters of the reply for the restart and for errors.
+- Your phone's time zone and whether its date and time are set automatically, because a wrong date or time can stop a scheduled restart from running.
+- Your phone's support code and the same technical details as a help message.
+
+Before it leaves your phone, the app erases your modem password from it. It does not include your Wi-Fi name. We use restart logs only to find out why a restart did not work and fix the app. They are sent and stored the same way as help messages, in the same private Discord channel, and we keep them only as long as we need them for that. To have them deleted, write to us with your support code.
+
 ## What we do not do
 - We do not use accounts, ads, analytics or tracking tools.
 - We do not collect your location, contacts, files or browsing activity. The only web pages a modem report includes are your modem's own, opened inside the app.
@@ -59,26 +71,28 @@ ReiniciaWifi is not directed to children under 13, and we do not knowingly colle
 We may update this Privacy Policy from time to time. If any changes are made, the new policy will be posted on this page with the updated effective date.
 
 ## Contact
-If you have any questions or concerns about this Privacy Policy, or want your help messages or modem reports deleted, contact us at:
+If you have any questions or concerns about this Privacy Policy, or want your help messages, restart logs or modem reports deleted, contact us at:
 [heroiccharlyappssoporte@gmail.com](mailto:heroiccharlyappssoporte@gmail.com)
 
 ---
 
 # Política de privacidad (en español)
-Fecha de entrada en vigor: 8 de noviembre de 2026
+Fecha de entrada en vigor: 11 de noviembre de 2026
 
 Esta Política de privacidad se aplica a la app para Android ReiniciaWifi (“nosotros”). ReiniciaWifi reinicia tu propio módem o router desde tu teléfono.
 
 ## Información que se queda en tu teléfono
 - **Configuración del módem:** el nombre del Wi-Fi, el modelo del módem, la dirección IP, el usuario y la contraseña que escribes. Se guardan cifrados en tu teléfono, con una clave que no puede salir de él, y solo se envían a tu propio módem en tu red local para iniciar sesión y reiniciarlo. Nunca se nos envían a nosotros ni a nadie más, y no se incluyen en las copias de seguridad del teléfono.
 - **Historial de reinicios:** cuándo y en qué red reiniciaste por última vez cada módem. Se guarda cifrado solo en tu teléfono.
+- **Reinicio programado:** la hora y los días que eliges, la red guardada a la que aplica, si cada reinicio programado funcionó y la cuenta de reinicios que has hecho con la app. La programación se guarda cifrada; todo se queda solo en tu teléfono.
+- **Registros de reinicio:** un breve registro de tus últimos reinicios manuales y programados (cuándo, el resultado, el modelo y la dirección local de tu módem, y si tu teléfono permitía lo que necesita un reinicio programado). Se queda en tu teléfono, salvo que lo adjuntes a un mensaje de ayuda (ver abajo).
 - **Reportes de módem a medias:** si envías un reporte de módem sin el paso del reinicio (ver abajo), la app recuerda el nombre del Wi-Fi de esa red, o la dirección de su módem si Android oculta el nombre, para ofrecerte terminar el reporte. Se queda solo en tu teléfono.
 - **Ubicación:** Android solo comparte el nombre de la red Wi-Fi a la que estás conectado con apps que tienen permiso de ubicación precisa. Usamos ese permiso solo para leer el nombre del Wi-Fi y reconocer tus redes guardadas. Nunca leemos, guardamos ni enviamos tu ubicación.
 
 Puedes borrar todo esto en cualquier momento con **Borrar todos los datos** en la app, o desinstalándola.
 
 ## Información que recopilamos
-Solo recibimos información cuando decides enviarla: un mensaje desde la pantalla de **Ayuda**, o un reporte de módem desde la pantalla de **Ajustes**.
+Solo recibimos información cuando decides enviarla: un mensaje desde la pantalla de **Ayuda** (opcionalmente con tus registros de reinicio), o un reporte de módem desde la pantalla de **Ajustes**.
 
 ### Mensajes de ayuda
 Un mensaje de ayuda incluye:
@@ -112,6 +126,16 @@ Si un reinicio falla de una forma que tú no puedes resolver (por ejemplo, tu m�
 
 Antes de salir de tu teléfono, la app borra de él la contraseña de tu módem. No incluye el nombre de tu Wi-Fi, la dirección de tu módem ni tu usuario. Usamos estos reportes solo para corregir la app con ese módem. Se envían y se guardan igual que los mensajes de ayuda, en el mismo canal privado de Discord, y los conservamos solo el tiempo necesario para eso. Para que borremos un reporte, escríbenos con tu código de soporte.
 
+### Registros de reinicio
+En la pantalla de **Ayuda** puedes marcar **Adjuntar logs de error: reinicio programado** y/o **Adjuntar logs de error: reinicio manual**. No se adjunta nada a menos que lo marques y envíes el mensaje. El archivo de texto adjunto incluye:
+- **Reinicios programados** (tus últimos 20): la hora para la que estaba programado cada uno y cuándo corrió en realidad, el resultado, el modelo y la dirección local de tu módem, si tu teléfono estaba conectado al Wi-Fi, y si están permitidos los permisos de batería, notificaciones y alarmas exactas. También incluye tu programación actual (hora y días) y cuándo se ejecuta la próxima vez.
+- **Reinicios manuales** (tus últimos 10): cuándo, el resultado, el modelo y la dirección local de tu módem.
+- En ambos, la lista de peticiones que la app hizo a tu módem: la dirección de la página (ruta) y el código de respuesta del módem, y los primeros 150 caracteres de la respuesta del reinicio y de los errores.
+- La zona horaria de tu teléfono y si su fecha y hora son automáticas, porque una fecha u hora incorrecta puede impedir que un reinicio programado se ejecute.
+- El código de soporte de tu teléfono y los mismos datos técnicos que un mensaje de ayuda.
+
+Antes de salir de tu teléfono, la app borra de él la contraseña de tu módem. No incluye el nombre de tu Wi-Fi. Usamos los registros de reinicio solo para averiguar por qué un reinicio no funcionó y corregir la app. Se envían y se guardan igual que los mensajes de ayuda, en el mismo canal privado de Discord, y los conservamos solo el tiempo necesario para eso. Para que los borremos, escríbenos con tu código de soporte.
+
 ## Lo que no hacemos
 - No usamos cuentas, anuncios, analíticas ni herramientas de rastreo.
 - No recopilamos tu ubicación, contactos, archivos ni actividad de navegación. Las únicas páginas web que incluye un reporte de módem son las de tu propio módem, abiertas dentro de la app.
@@ -123,5 +147,5 @@ ReiniciaWifi no está dirigida a menores de 13 años y no recopilamos a sabienda
 Podemos actualizar esta Política de privacidad. Si hay cambios, la nueva política se publicará en esta página con la fecha de entrada en vigor actualizada.
 
 ## Contacto
-Si tienes preguntas sobre esta Política de privacidad, o quieres que borremos tus mensajes de ayuda o reportes de módem, escríbenos a:
+Si tienes preguntas sobre esta Política de privacidad, o quieres que borremos tus mensajes de ayuda, registros de reinicio o reportes de módem, escríbenos a:
 [heroiccharlyappssoporte@gmail.com](mailto:heroiccharlyappssoporte@gmail.com)
