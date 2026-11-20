@@ -1,5 +1,5 @@
 # ReiniciaWifi
-Effective Date: November 11th 2026
+Effective Date: November 20th 2026
 
 *[Versión en español más abajo](#política-de-privacidad-en-español)*
 
@@ -10,6 +10,7 @@ This Privacy Policy applies to the ReiniciaWifi Android app (referred to as “w
 - **Restart history:** when and on which network you last restarted each modem. It is stored encrypted on your phone only.
 - **Scheduled restart:** the time and days you choose, the saved network it applies to, whether each scheduled restart worked, and a count of the restarts you have made with the app. The schedule is stored encrypted; all of it stays on your phone only.
 - **Restart logs:** a short record of your latest manual and scheduled restarts (when, the result, your modem's model and local address, and whether your phone allowed what a scheduled restart needs). It stays on your phone unless you attach it to a help message (see below).
+- **Plan and trial:** the date your free trial started, which saved network you keep in the base version, and whether Google Play confirmed a Premium subscription on this phone and when it was last checked. It stays on your phone only.
 - **Unfinished modem reports:** if you send a modem report without the restart step (see below), the app remembers that network's Wi-Fi name, or its modem's address if Android hides the name, so it can offer to finish the report. It stays on your phone only.
 - **Location:** Android only shares the name of the Wi-Fi network you are connected to with apps that have precise location permission. We use that permission only to read the Wi-Fi name and recognize your saved networks. We never read, save or send your location.
 
@@ -23,7 +24,7 @@ A help message includes:
 - The text you write.
 - Your email address, only if you enter one so we can reply.
 - Your phone's support code: a short code derived from Android's ID for this app. It cannot be turned back into that ID and does not identify you personally.
-- Technical details about the app and your phone: the app version, your phone's maker and model, the maker's version of Android (for example MIUI or One UI), the Android version, the app's language and your phone's language, how the app was installed (for example from Google Play) and which of the app's language, screen and processor packages are installed. They help us find problems specific to a phone or an installation, and contain nothing that identifies you.
+- Technical details about the app and your phone: the app version, your phone's maker and model, the maker's version of Android (for example MIUI or One UI), the Android version, the app's language and your phone's language, how the app was installed (for example from Google Play), which of the app's language, screen and processor packages are installed, and what Google Play last answered about the Premium plans (a result code, such as OK or SERVICE_UNAVAILABLE, and how many plans and active subscriptions it listed). They help us find problems specific to a phone, an installation or a store account, and contain nothing that identifies you.
 
 We use this information only to answer you and fix problems with the app. Help messages are sent over an encrypted connection (HTTPS) to a private channel on Discord that only our support team can read. Discord acts as our service provider; see [Discord's Privacy Policy](https://discord.com/privacy). We do not sell or share this information with anyone else, and we do not use it for advertising.
 
@@ -60,6 +61,9 @@ On the **Help** screen you can tick **Attach error logs: scheduled restart** and
 
 Before it leaves your phone, the app erases your modem password from it. It does not include your Wi-Fi name. We use restart logs only to find out why a restart did not work and fix the app. They are sent and stored the same way as help messages, in the same private Discord channel, and we keep them only as long as we need them for that. To have them deleted, write to us with your support code.
 
+## Purchases
+The Premium subscription is bought and paid for through Google Play. Google, not us, handles your payment details and your purchase, and we never receive your name, email, card or other payment information from it. The app only asks Google Play, on your phone, whether you have an active subscription. Google's [Privacy Policy](https://policies.google.com/privacy) applies to what it collects.
+
 ## What we do not do
 - We do not use accounts, ads, analytics or tracking tools.
 - We do not collect your location, contacts, files or browsing activity. The only web pages a modem report includes are your modem's own, opened inside the app.
@@ -77,7 +81,7 @@ If you have any questions or concerns about this Privacy Policy, or want your he
 ---
 
 # Política de privacidad (en español)
-Fecha de entrada en vigor: 11 de noviembre de 2026
+Fecha de entrada en vigor: 20 de noviembre de 2026
 
 Esta Política de privacidad se aplica a la app para Android ReiniciaWifi (“nosotros”). ReiniciaWifi reinicia tu propio módem o router desde tu teléfono.
 
@@ -86,6 +90,7 @@ Esta Política de privacidad se aplica a la app para Android ReiniciaWifi (“no
 - **Historial de reinicios:** cuándo y en qué red reiniciaste por última vez cada módem. Se guarda cifrado solo en tu teléfono.
 - **Reinicio programado:** la hora y los días que eliges, la red guardada a la que aplica, si cada reinicio programado funcionó y la cuenta de reinicios que has hecho con la app. La programación se guarda cifrada; todo se queda solo en tu teléfono.
 - **Registros de reinicio:** un breve registro de tus últimos reinicios manuales y programados (cuándo, el resultado, el modelo y la dirección local de tu módem, y si tu teléfono permitía lo que necesita un reinicio programado). Se queda en tu teléfono, salvo que lo adjuntes a un mensaje de ayuda (ver abajo).
+- **Plan y prueba:** la fecha en que empezó tu prueba gratis, qué red guardada conservas en la versión base, y si Google Play confirmó en este teléfono una suscripción Premium y cuándo se revisó por última vez. Se queda solo en tu teléfono.
 - **Reportes de módem a medias:** si envías un reporte de módem sin el paso del reinicio (ver abajo), la app recuerda el nombre del Wi-Fi de esa red, o la dirección de su módem si Android oculta el nombre, para ofrecerte terminar el reporte. Se queda solo en tu teléfono.
 - **Ubicación:** Android solo comparte el nombre de la red Wi-Fi a la que estás conectado con apps que tienen permiso de ubicación precisa. Usamos ese permiso solo para leer el nombre del Wi-Fi y reconocer tus redes guardadas. Nunca leemos, guardamos ni enviamos tu ubicación.
 
@@ -99,7 +104,7 @@ Un mensaje de ayuda incluye:
 - El texto que escribes.
 - Tu correo electrónico, solo si lo escribes para que te respondamos.
 - El código de soporte de tu teléfono: un código corto derivado del identificador de Android para esta app. No se puede convertir de vuelta en ese identificador y no te identifica personalmente.
-- Datos técnicos de la app y de tu teléfono: la versión de la app, la marca y el modelo de tu teléfono, la versión de Android del fabricante (por ejemplo MIUI o One UI), la versión de Android, el idioma de la app y el de tu teléfono, cómo se instaló la app (por ejemplo desde Google Play) y cuáles de los paquetes de idioma, pantalla y procesador de la app están instalados. Nos ayudan a encontrar problemas propios de un teléfono o de una instalación, y no contienen nada que te identifique.
+- Datos técnicos de la app y de tu teléfono: la versión de la app, la marca y el modelo de tu teléfono, la versión de Android del fabricante (por ejemplo MIUI o One UI), la versión de Android, el idioma de la app y el de tu teléfono, cómo se instaló la app (por ejemplo desde Google Play), cuáles de los paquetes de idioma, pantalla y procesador de la app están instalados, y lo último que respondió Google Play sobre los planes Premium (un código de resultado, como OK o SERVICE_UNAVAILABLE, y cuántos planes y suscripciones activas listó). Nos ayudan a encontrar problemas propios de un teléfono, de una instalación o de una cuenta de la tienda, y no contienen nada que te identifique.
 
 Usamos esta información solo para responderte y corregir problemas de la app. Los mensajes de ayuda se envían por una conexión cifrada (HTTPS) a un canal privado de Discord que solo nuestro equipo de soporte puede leer. Discord actúa como nuestro proveedor de servicio; consulta la [Política de privacidad de Discord](https://discord.com/privacy). No vendemos ni compartimos esta información con nadie más, ni la usamos para publicidad.
 
@@ -135,6 +140,9 @@ En la pantalla de **Ayuda** puedes marcar **Adjuntar logs de error: reinicio pro
 - El código de soporte de tu teléfono y los mismos datos técnicos que un mensaje de ayuda.
 
 Antes de salir de tu teléfono, la app borra de él la contraseña de tu módem. No incluye el nombre de tu Wi-Fi. Usamos los registros de reinicio solo para averiguar por qué un reinicio no funcionó y corregir la app. Se envían y se guardan igual que los mensajes de ayuda, en el mismo canal privado de Discord, y los conservamos solo el tiempo necesario para eso. Para que los borremos, escríbenos con tu código de soporte.
+
+## Compras
+La suscripción Premium se compra y se paga a través de Google Play. Google, no nosotros, maneja tus datos de pago y tu compra, y nunca recibimos de ahí tu nombre, correo, tarjeta ni otros datos de pago. La app solo le pregunta a Google Play, en tu teléfono, si tienes una suscripción activa. A lo que Google recopila le aplica la [Política de privacidad de Google](https://policies.google.com/privacy).
 
 ## Lo que no hacemos
 - No usamos cuentas, anuncios, analíticas ni herramientas de rastreo.
