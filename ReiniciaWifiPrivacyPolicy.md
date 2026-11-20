@@ -10,14 +10,14 @@ This Privacy Policy applies to the ReiniciaWifi Android app (referred to as “w
 - **Restart history:** when and on which network you last restarted each modem. It is stored encrypted on your phone only.
 - **Scheduled restart:** the time and days you choose, the saved network it applies to, whether each scheduled restart worked, and a count of the restarts you have made with the app. The schedule is stored encrypted; all of it stays on your phone only.
 - **Restart logs:** a short record of your latest manual and scheduled restarts (when, the result, your modem's model and local address, and whether your phone allowed what a scheduled restart needs). It stays on your phone unless you attach it to a help message (see below).
-- **Plan and trial:** the date your free trial started, which saved network you keep in the base version, and whether Google Play confirmed a Premium subscription on this phone and when it was last checked. The subscription check stays on your phone; the trial's start date also goes to our server (see **Free trial record** below).
+- **Plan and trial:** the date your free trial started, which saved network you keep in the base version, and whether Google Play confirmed a Premium subscription on this phone and when it was last checked. The trial's start date and, if you subscribe, the subscription check also go to our server (see **Free trial record** and **Premium subscription check** below). The subscription's end date and whether it renews, which our server tells the app, are also kept on your phone.
 - **Unfinished modem reports:** if you send a modem report without the restart step (see below), the app remembers that network's Wi-Fi name, or its modem's address if Android hides the name, so it can offer to finish the report. It stays on your phone only.
 - **Location:** Android only shares the name of the Wi-Fi network you are connected to with apps that have precise location permission. We use that permission only to read the Wi-Fi name and recognize your saved networks. We never read, save or send your location.
 
 You can delete all of this at any time with **Erase all data** in the app, or by uninstalling it.
 
 ## Information we collect
-We receive information when you choose to send it: a message from the **Help** screen (optionally with your restart logs), or a modem report from the **Config** screen. The only thing the app sends on its own is the free trial record described below.
+We receive information when you choose to send it: a message from the **Help** screen (optionally with your restart logs), or a modem report from the **Config** screen. The only things the app sends on its own are the free trial record and, if you have a Premium subscription, the subscription check described below.
 
 ### Help messages
 A help message includes:
@@ -68,8 +68,16 @@ Every time the app opens, until our server has answered once, it asks the server
 
 Our server makes that code one-way again with a secret that only it knows, and keeps the result together with the trial's start date and the moment it first saw it. This record is not linked to your name, your email, your support code or any message you send, so we can't tell who it belongs to and we can't look up one person's record. We use it only to remember the free trial, we don't share it with anyone and we don't use it for advertising. We keep it for as long as we offer the free trial. If your phone is reset to factory settings, Android gives it a new ID and the trial starts again. The server runs on Cloudflare, which acts as our service provider; see [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
 
+### Premium subscription check
+If you have an active Premium subscription, the app asks our server to confirm it, over an encrypted HTTPS connection. It does so when the app opens, at most once a day. It sends:
+- The purchase token: an identifier that Google Play gives to your purchase. It is not your name, your email or any payment detail.
+- The same one-way device code as the free trial record.
+- Your phone's model, for example "Pixel 7".
+
+Our server uses the purchase token only to ask Google Play whether the subscription is active, and answers the app with a signed licence. A subscription can be used on up to 3 phones, so for each subscription the server keeps a one-way code of the purchase token (made with the same secret as the trial record) and, for each phone using it, that phone's one-way device code, its model, and when it first and last asked. If a fourth phone asks, the app shows the models and last use of the other three, so the person can free a place; a phone's place is also given back automatically after 45 days without use. We never receive your name, email, card or other payment details: Google handles them. We use this information only to check the subscription and apply the 3-phone limit, we don't share it with anyone and we don't use it for advertising. We keep it while the subscription is in use. These records are not linked to your name, your email, your support code or any message you send, so we can't look up one person's records. The server runs on Cloudflare, which acts as our service provider, and it asks Google Play, whose [Privacy Policy](https://policies.google.com/privacy) applies to what Google handles.
+
 ## Purchases
-The Premium subscription is bought and paid for through Google Play. Google, not us, handles your payment details and your purchase, and we never receive your name, email, card or other payment information from it. The app only asks Google Play, on your phone, whether you have an active subscription. Google's [Privacy Policy](https://policies.google.com/privacy) applies to what it collects.
+The Premium subscription is bought and paid for through Google Play. Google, not us, handles your payment details and your purchase, and we never receive your name, email, card or other payment information from it. The app asks Google Play, on your phone, whether you have an active subscription, and then asks our server to confirm it (see **Premium subscription check**). Google's [Privacy Policy](https://policies.google.com/privacy) applies to what it collects.
 
 ## What we do not do
 - We do not use accounts, ads, analytics or tracking tools.
@@ -97,14 +105,14 @@ Esta Política de privacidad se aplica a la app para Android ReiniciaWifi (“no
 - **Historial de reinicios:** cuándo y en qué red reiniciaste por última vez cada módem. Se guarda cifrado solo en tu teléfono.
 - **Reinicio programado:** la hora y los días que eliges, la red guardada a la que aplica, si cada reinicio programado funcionó y la cuenta de reinicios que has hecho con la app. La programación se guarda cifrada; todo se queda solo en tu teléfono.
 - **Registros de reinicio:** un breve registro de tus últimos reinicios manuales y programados (cuándo, el resultado, el modelo y la dirección local de tu módem, y si tu teléfono permitía lo que necesita un reinicio programado). Se queda en tu teléfono, salvo que lo adjuntes a un mensaje de ayuda (ver abajo).
-- **Plan y prueba:** la fecha en que empezó tu prueba gratis, qué red guardada conservas en la versión base, y si Google Play confirmó en este teléfono una suscripción Premium y cuándo se revisó por última vez. La revisión de la suscripción se queda en tu teléfono; la fecha de inicio de la prueba también va a nuestro servidor (ver **Registro de la prueba gratis** abajo).
+- **Plan y prueba:** la fecha en que empezó tu prueba gratis, qué red guardada conservas en la versión base, y si Google Play confirmó en este teléfono una suscripción Premium y cuándo se revisó por última vez. La fecha de inicio de la prueba y, si te suscribes, la revisión de la suscripción también van a nuestro servidor (ver **Registro de la prueba gratis** y **Revisión de la suscripción Premium** abajo). La fecha en que termina la suscripción y si se renueva, que nuestro servidor le dice a la app, también se guardan en tu teléfono.
 - **Reportes de módem a medias:** si envías un reporte de módem sin el paso del reinicio (ver abajo), la app recuerda el nombre del Wi-Fi de esa red, o la dirección de su módem si Android oculta el nombre, para ofrecerte terminar el reporte. Se queda solo en tu teléfono.
 - **Ubicación:** Android solo comparte el nombre de la red Wi-Fi a la que estás conectado con apps que tienen permiso de ubicación precisa. Usamos ese permiso solo para leer el nombre del Wi-Fi y reconocer tus redes guardadas. Nunca leemos, guardamos ni enviamos tu ubicación.
 
 Puedes borrar todo esto en cualquier momento con **Borrar todos los datos** en la app, o desinstalándola.
 
 ## Información que recopilamos
-Recibimos información cuando decides enviarla: un mensaje desde la pantalla de **Ayuda** (opcionalmente con tus registros de reinicio), o un reporte de módem desde la pantalla de **Ajustes**. Lo único que la app envía por su cuenta es el registro de la prueba gratis que se describe abajo.
+Recibimos información cuando decides enviarla: un mensaje desde la pantalla de **Ayuda** (opcionalmente con tus registros de reinicio), o un reporte de módem desde la pantalla de **Ajustes**. Lo único que la app envía por su cuenta es el registro de la prueba gratis y, si tienes una suscripción Premium, la revisión de la suscripción que se describen abajo.
 
 ### Mensajes de ayuda
 Un mensaje de ayuda incluye:
@@ -155,8 +163,16 @@ Cada vez que la app se abre, hasta que nuestro servidor responde una vez, le pre
 
 Nuestro servidor vuelve a hacer ese código de un solo sentido con un secreto que solo él conoce, y guarda el resultado junto con la fecha de inicio de la prueba y el momento en que lo vio por primera vez. Este registro no está ligado a tu nombre, tu correo, tu código de soporte ni a ningún mensaje que envíes, así que no sabemos de quién es y no podemos buscar el registro de una persona. Lo usamos solo para recordar la prueba gratis, no lo compartimos con nadie ni lo usamos para publicidad. Lo conservamos mientras ofrezcamos la prueba gratis. Si tu teléfono se restablece de fábrica, Android le da un identificador nuevo y la prueba empieza otra vez. El servidor funciona en Cloudflare, que actúa como nuestro proveedor de servicio; consulta la [Política de privacidad de Cloudflare](https://www.cloudflare.com/privacypolicy/).
 
+### Revisión de la suscripción Premium
+Si tienes una suscripción Premium activa, la app le pide a nuestro servidor que la confirme, por una conexión cifrada HTTPS. Lo hace cuando la app se abre, como máximo una vez al día. Envía:
+- El token de compra: un identificador que Google Play le da a tu compra. No es tu nombre, tu correo ni ningún dato de pago.
+- El mismo código de un solo sentido del dispositivo que usa el registro de la prueba gratis.
+- El modelo de tu teléfono, por ejemplo "Pixel 7".
+
+Nuestro servidor usa el token de compra solo para preguntarle a Google Play si la suscripción está activa, y le responde a la app con una licencia firmada. Una suscripción se puede usar en hasta 3 teléfonos, así que por cada suscripción el servidor guarda un código de un solo sentido del token de compra (hecho con el mismo secreto que el registro de la prueba) y, por cada teléfono que la usa, su código de un solo sentido del dispositivo, su modelo y cuándo preguntó por primera y por última vez. Si un cuarto teléfono pregunta, la app muestra los modelos y el último uso de los otros tres, para que la persona libere un lugar; además, el lugar de un teléfono se libera solo después de 45 días sin uso. Nunca recibimos tu nombre, correo, tarjeta ni otros datos de pago: los maneja Google. Usamos esta información solo para revisar la suscripción y aplicar el límite de 3 teléfonos, no la compartimos con nadie ni la usamos para publicidad. La conservamos mientras la suscripción esté en uso. Estos registros no están ligados a tu nombre, tu correo, tu código de soporte ni a ningún mensaje que envíes, así que no podemos buscar los registros de una persona. El servidor funciona en Cloudflare, que actúa como nuestro proveedor de servicio, y le pregunta a Google Play, a cuyo tratamiento le aplica la [Política de privacidad de Google](https://policies.google.com/privacy).
+
 ## Compras
-La suscripción Premium se compra y se paga a través de Google Play. Google, no nosotros, maneja tus datos de pago y tu compra, y nunca recibimos de ahí tu nombre, correo, tarjeta ni otros datos de pago. La app solo le pregunta a Google Play, en tu teléfono, si tienes una suscripción activa. A lo que Google recopila le aplica la [Política de privacidad de Google](https://policies.google.com/privacy).
+La suscripción Premium se compra y se paga a través de Google Play. Google, no nosotros, maneja tus datos de pago y tu compra, y nunca recibimos de ahí tu nombre, correo, tarjeta ni otros datos de pago. La app le pregunta a Google Play, en tu teléfono, si tienes una suscripción activa, y luego le pide a nuestro servidor que lo confirme (ver **Revisión de la suscripción Premium**). A lo que Google recopila le aplica la [Política de privacidad de Google](https://policies.google.com/privacy).
 
 ## Lo que no hacemos
 - No usamos cuentas, anuncios, analíticas ni herramientas de rastreo.
