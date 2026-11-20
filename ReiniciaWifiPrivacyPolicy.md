@@ -1,5 +1,5 @@
 # ReiniciaWifi
-Effective Date: November 20th 2026
+Effective Date: November 21st 2026
 
 *[Versión en español más abajo](#política-de-privacidad-en-español)*
 
@@ -10,14 +10,14 @@ This Privacy Policy applies to the ReiniciaWifi Android app (referred to as “w
 - **Restart history:** when and on which network you last restarted each modem. It is stored encrypted on your phone only.
 - **Scheduled restart:** the time and days you choose, the saved network it applies to, whether each scheduled restart worked, and a count of the restarts you have made with the app. The schedule is stored encrypted; all of it stays on your phone only.
 - **Restart logs:** a short record of your latest manual and scheduled restarts (when, the result, your modem's model and local address, and whether your phone allowed what a scheduled restart needs). It stays on your phone unless you attach it to a help message (see below).
-- **Plan and trial:** the date your free trial started, which saved network you keep in the base version, and whether Google Play confirmed a Premium subscription on this phone and when it was last checked. It stays on your phone only.
+- **Plan and trial:** the date your free trial started, which saved network you keep in the base version, and whether Google Play confirmed a Premium subscription on this phone and when it was last checked. The subscription check stays on your phone; the trial's start date also goes to our server (see **Free trial record** below).
 - **Unfinished modem reports:** if you send a modem report without the restart step (see below), the app remembers that network's Wi-Fi name, or its modem's address if Android hides the name, so it can offer to finish the report. It stays on your phone only.
 - **Location:** Android only shares the name of the Wi-Fi network you are connected to with apps that have precise location permission. We use that permission only to read the Wi-Fi name and recognize your saved networks. We never read, save or send your location.
 
 You can delete all of this at any time with **Erase all data** in the app, or by uninstalling it.
 
 ## Information we collect
-We only receive information when you choose to send it: a message from the **Help** screen (optionally with your restart logs), or a modem report from the **Config** screen.
+We receive information when you choose to send it: a message from the **Help** screen (optionally with your restart logs), or a modem report from the **Config** screen. The only thing the app sends on its own is the free trial record described below.
 
 ### Help messages
 A help message includes:
@@ -61,6 +61,13 @@ On the **Help** screen you can tick **Attach error logs: scheduled restart** and
 
 Before it leaves your phone, the app erases your modem password from it. It does not include your Wi-Fi name. We use restart logs only to find out why a restart did not work and fix the app. They are sent and stored the same way as help messages, in the same private Discord channel, and we keep them only as long as we need them for that. To have them deleted, write to us with your support code.
 
+### Free trial record
+Every time the app opens, until our server has answered once, it asks the server (over an encrypted HTTPS connection) when this phone's free trial started, so that reinstalling the app doesn't start the trial over. This happens by itself, because it is how the free trial works; it can't be turned off, except by uninstalling the app. It sends:
+- A one-way code made from Android's ID for this app. It is not the support code, it can't be turned back into that ID and it does not identify you.
+- The date the free trial started on your phone.
+
+Our server makes that code one-way again with a secret that only it knows, and keeps the result together with the trial's start date and the moment it first saw it. This record is not linked to your name, your email, your support code or any message you send, so we can't tell who it belongs to and we can't look up one person's record. We use it only to remember the free trial, we don't share it with anyone and we don't use it for advertising. We keep it for as long as we offer the free trial. If your phone is reset to factory settings, Android gives it a new ID and the trial starts again. The server runs on Cloudflare, which acts as our service provider; see [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
+
 ## Purchases
 The Premium subscription is bought and paid for through Google Play. Google, not us, handles your payment details and your purchase, and we never receive your name, email, card or other payment information from it. The app only asks Google Play, on your phone, whether you have an active subscription. Google's [Privacy Policy](https://policies.google.com/privacy) applies to what it collects.
 
@@ -81,7 +88,7 @@ If you have any questions or concerns about this Privacy Policy, or want your he
 ---
 
 # Política de privacidad (en español)
-Fecha de entrada en vigor: 20 de noviembre de 2026
+Fecha de entrada en vigor: 21 de noviembre de 2026
 
 Esta Política de privacidad se aplica a la app para Android ReiniciaWifi (“nosotros”). ReiniciaWifi reinicia tu propio módem o router desde tu teléfono.
 
@@ -90,14 +97,14 @@ Esta Política de privacidad se aplica a la app para Android ReiniciaWifi (“no
 - **Historial de reinicios:** cuándo y en qué red reiniciaste por última vez cada módem. Se guarda cifrado solo en tu teléfono.
 - **Reinicio programado:** la hora y los días que eliges, la red guardada a la que aplica, si cada reinicio programado funcionó y la cuenta de reinicios que has hecho con la app. La programación se guarda cifrada; todo se queda solo en tu teléfono.
 - **Registros de reinicio:** un breve registro de tus últimos reinicios manuales y programados (cuándo, el resultado, el modelo y la dirección local de tu módem, y si tu teléfono permitía lo que necesita un reinicio programado). Se queda en tu teléfono, salvo que lo adjuntes a un mensaje de ayuda (ver abajo).
-- **Plan y prueba:** la fecha en que empezó tu prueba gratis, qué red guardada conservas en la versión base, y si Google Play confirmó en este teléfono una suscripción Premium y cuándo se revisó por última vez. Se queda solo en tu teléfono.
+- **Plan y prueba:** la fecha en que empezó tu prueba gratis, qué red guardada conservas en la versión base, y si Google Play confirmó en este teléfono una suscripción Premium y cuándo se revisó por última vez. La revisión de la suscripción se queda en tu teléfono; la fecha de inicio de la prueba también va a nuestro servidor (ver **Registro de la prueba gratis** abajo).
 - **Reportes de módem a medias:** si envías un reporte de módem sin el paso del reinicio (ver abajo), la app recuerda el nombre del Wi-Fi de esa red, o la dirección de su módem si Android oculta el nombre, para ofrecerte terminar el reporte. Se queda solo en tu teléfono.
 - **Ubicación:** Android solo comparte el nombre de la red Wi-Fi a la que estás conectado con apps que tienen permiso de ubicación precisa. Usamos ese permiso solo para leer el nombre del Wi-Fi y reconocer tus redes guardadas. Nunca leemos, guardamos ni enviamos tu ubicación.
 
 Puedes borrar todo esto en cualquier momento con **Borrar todos los datos** en la app, o desinstalándola.
 
 ## Información que recopilamos
-Solo recibimos información cuando decides enviarla: un mensaje desde la pantalla de **Ayuda** (opcionalmente con tus registros de reinicio), o un reporte de módem desde la pantalla de **Ajustes**.
+Recibimos información cuando decides enviarla: un mensaje desde la pantalla de **Ayuda** (opcionalmente con tus registros de reinicio), o un reporte de módem desde la pantalla de **Ajustes**. Lo único que la app envía por su cuenta es el registro de la prueba gratis que se describe abajo.
 
 ### Mensajes de ayuda
 Un mensaje de ayuda incluye:
@@ -140,6 +147,13 @@ En la pantalla de **Ayuda** puedes marcar **Adjuntar logs de error: reinicio pro
 - El código de soporte de tu teléfono y los mismos datos técnicos que un mensaje de ayuda.
 
 Antes de salir de tu teléfono, la app borra de él la contraseña de tu módem. No incluye el nombre de tu Wi-Fi. Usamos los registros de reinicio solo para averiguar por qué un reinicio no funcionó y corregir la app. Se envían y se guardan igual que los mensajes de ayuda, en el mismo canal privado de Discord, y los conservamos solo el tiempo necesario para eso. Para que los borremos, escríbenos con tu código de soporte.
+
+### Registro de la prueba gratis
+Cada vez que la app se abre, hasta que nuestro servidor responde una vez, le pregunta al servidor (por una conexión cifrada HTTPS) cuándo empezó la prueba gratis de este teléfono, para que reinstalar la app no la reinicie. Esto ocurre por sí solo, porque así funciona la prueba gratis; no se puede apagar, salvo desinstalando la app. Envía:
+- Un código de un solo sentido hecho del identificador de Android para esta app. No es el código de soporte, no se puede convertir de vuelta en ese identificador y no te identifica.
+- La fecha en que empezó la prueba gratis en tu teléfono.
+
+Nuestro servidor vuelve a hacer ese código de un solo sentido con un secreto que solo él conoce, y guarda el resultado junto con la fecha de inicio de la prueba y el momento en que lo vio por primera vez. Este registro no está ligado a tu nombre, tu correo, tu código de soporte ni a ningún mensaje que envíes, así que no sabemos de quién es y no podemos buscar el registro de una persona. Lo usamos solo para recordar la prueba gratis, no lo compartimos con nadie ni lo usamos para publicidad. Lo conservamos mientras ofrezcamos la prueba gratis. Si tu teléfono se restablece de fábrica, Android le da un identificador nuevo y la prueba empieza otra vez. El servidor funciona en Cloudflare, que actúa como nuestro proveedor de servicio; consulta la [Política de privacidad de Cloudflare](https://www.cloudflare.com/privacypolicy/).
 
 ## Compras
 La suscripción Premium se compra y se paga a través de Google Play. Google, no nosotros, maneja tus datos de pago y tu compra, y nunca recibimos de ahí tu nombre, correo, tarjeta ni otros datos de pago. La app solo le pregunta a Google Play, en tu teléfono, si tienes una suscripción activa. A lo que Google recopila le aplica la [Política de privacidad de Google](https://policies.google.com/privacy).
