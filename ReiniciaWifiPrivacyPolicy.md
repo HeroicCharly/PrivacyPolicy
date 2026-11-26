@@ -1,5 +1,5 @@
 # ReiniciaWifi
-Effective Date: November 21st 2026
+Effective Date: November 25th 2026
 
 *[Versión en español más abajo](#política-de-privacidad-en-español)*
 
@@ -91,12 +91,12 @@ We may update this Privacy Policy from time to time. If any changes are made, th
 
 ## Contact
 If you have any questions or concerns about this Privacy Policy, or want your help messages, restart logs or modem reports deleted, contact us at:
-[heroiccharlyappssoporte@gmail.com](mailto:heroiccharlyappssoporte@gmail.com)
+[soporte@heroiccharly.com](mailto:soporte@heroiccharly.com)
 
 ---
 
 # Política de privacidad (en español)
-Fecha de entrada en vigor: 21 de noviembre de 2026
+Fecha de entrada en vigor: 25 de noviembre de 2026
 
 Esta Política de privacidad se aplica a la app para Android ReiniciaWifi (“nosotros”). ReiniciaWifi reinicia tu propio módem o router desde tu teléfono.
 
@@ -186,4 +186,4 @@ Podemos actualizar esta Política de privacidad. Si hay cambios, la nueva polít
 
 ## Contacto
 Si tienes preguntas sobre esta Política de privacidad, o quieres que borremos tus mensajes de ayuda, registros de reinicio o reportes de módem, escríbenos a:
-[heroiccharlyappssoporte@gmail.com](mailto:heroiccharlyappssoporte@gmail.com)
+[soporte@heroiccharly.com](mailto:soporte@heroiccharly.com)
